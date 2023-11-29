@@ -46,5 +46,6 @@ int main(int argc, char* argv[])
 
     srand(static_cast<unsigned>(time(nullptr)));
     runHeap();
-    
+
+    return 0;
 }
